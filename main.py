@@ -4,8 +4,13 @@ from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
-products = ["jabłko", "ziemniak", "gruszka", "śliwka"]
+products = ["jabłko", "ziemniak", "gruszka", "śliwka", "kapusta", "marchew", "papryka"]
 def search(driver, text):
+    try:
+        el = driver.find_element(By.XPATH, "//button[@id='bnp_btn_accept']")
+        el.click()
+    except:
+        pass
     el = driver.find_element(By.XPATH, "//input[@type='search']")
     # create action chain object
     action = ActionChains(driver)
@@ -28,10 +33,10 @@ def search(driver, text):
     except:
         return "no data"
 chromedriver = r"chromedriver.exe"
-brave = 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'
+#brave = 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'
 option = uc.ChromeOptions()
-option.add_argument("--headless")
-option.binary_location = brave
+#option.add_argument("--headless")
+#option.binary_location = brave
 driver = uc.Chrome(driver_executable_path=chromedriver, options=option)
 driver.get('https://www.bing.com/')
 
