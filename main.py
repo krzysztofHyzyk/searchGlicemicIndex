@@ -28,7 +28,7 @@ def search(driver, text):
 chromedriver = r"chromedriver.exe"
 brave = 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'
 option = uc.ChromeOptions()
-#option.add_argument("--headless")
+option.add_argument("--headless")
 option.binary_location = brave
 driver = uc.Chrome(driver_executable_path=chromedriver, options=option)
 
