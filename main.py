@@ -4,7 +4,7 @@ from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
-products = ["jabłko", "ziemniak", "gruszka", "śliwka", "kapusta", "marchew", "papryka"]
+products = ["jabłko", "ziemniak", "gruszka", "śliwka", "kapusta", "marchewka", "papryka"]
 def search(driver, text):
     try:
         el = driver.find_element(By.XPATH, "//button[@id='bnp_btn_accept']")
@@ -31,7 +31,14 @@ def search(driver, text):
         el = driver.find_element(By.XPATH, "//div[@class='b_focusTextMedium']")
         return el.text
     except:
-        return "no data"
+        pass
+    try:
+        el = driver.find_element(By.XPATH, "//strong")
+        return el.text
+    except:
+        pass
+
+    return "no data"
 chromedriver = r"chromedriver.exe"
 #brave = 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'
 option = uc.ChromeOptions()
