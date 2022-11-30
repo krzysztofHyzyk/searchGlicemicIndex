@@ -1,0 +1,277 @@
+Acerola;20
+Agawa - syrop;15
+Agrest niebieski;25
+Agrest z³oty;15
+Amarant ziarno;35
+Amarantus dmuchany;70
+Ananas (œwie¿y);45
+Ananas z puszki;65
+Arbuz;75
+Artiszoki;20
+Awokado;10
+Bagietka;70
+Bak³a¿an;20
+Banany dojrza³e;60
+Banany niedojrza³e;45
+Bataty - s³odkie kartofle;50
+Bia³a fasola;35
+Bia³a m¹ka;85
+Bia³y ry¿;70
+Biszkopt;70
+Borówki;25
+Bób gotowany;80
+Bób niedojrza³y/niegotowany;40
+Br¹zowy cukier;70
+Brukselka;15
+Brzoskwinie;35
+Brzoskwinie z puszki;55
+Bu³ki;70
+Buraki gotowane;65
+Buraki surowe czerwone;30
+Cebula;15
+Chayote - dyniowaty;50
+Chipsy;70
+Chleb orkiszowy;50
+Chleb pe³noziarnisty;65
+Chleb pp stostowany;45
+Chleb razowy (z bia³ej m¹ki);65
+Chleb ry¿owy;70
+Chleb z bia³ej m¹ki;90
+Chleb z m¹ki pp na zaczynie lub dro¿d¿ach;40
+Chleb ¿ytni (z m¹ki pp);45
+Chleb ¿ytni z bia³ej m¹ki;65
+Ciasto z m¹ki pp (bez cukru);50
+Ciecierzyca gotowana;30
+Ciecierzyca z puszki;35
+Couscous ( pe³ne ziarno);50
+Cukier;70
+Cukinia;15
+Cykoria;15
+Czarna fasola;35
+Czarna porzeczka;15
+Czekolada gorzka (>70% kakao);25
+Czekolada gorzka (>80% kakao);20
+Czereœnie;20
+Czerwona porzeczka;25
+Czosnek;30
+Daktyle suszone;70
+Dro¿d¿e;35
+Dro¿d¿e piwne;35
+Dynia;75
+Dziki ry¿;35
+D¿em s³odzony sokiem owocowym;30
+D¿em z cukrem;65
+Fasola bia³a - per³owa, borlotti, czarna, czerwona, adzuk;35
+Fasola mung, flagolet;25
+Fasola z puszki;40
+Fasolka pn¹ca;15
+Fasolka szparagowa;15
+Figi suszone;40
+Figi œwie¿e;35
+Fruktoza;20
+Glukoza;100
+Granat;35
+Grejpfrut;30
+Groszek zielony;35
+Gruszka;30
+Gryka;40
+Grzyby;15
+Humus;25
+Imbir;15
+Jab³ka duszone;35
+Jab³ka suszone;35
+Jab³ko (œwie¿e);35
+Jab³kowy sok (nies³odzony);50
+Jaja;0
+Je¿yny;25
+Jêczmieñ (ziarno);45
+Jêczmieñ dmuchany;60
+Jogurt odt³uszczony;35
+Jogurt sojowy;20
+Kabaczek;75
+Kakao (bez cukru);20
+Kakao s³odzone/czekolada (ekspresowe);60
+Kalafior;15
+Kapusta;15
+Karczochy;20
+Kasza gryczana;40
+Kasza jêczmienna;70
+Kasza manna;60
+kaszka pszenna bulgul;45
+Kasztan;60
+Kawa, herbata;0
+Ketchup;55
+Kie³ki (fasoli mung, soi);15
+Kiszona kapusta;15
+Kiwi;50
+Kleik;70
+Kokos;45
+Koper;15
+Korniszony (bez cukru);15
+Kukurydza;65
+Kukurydza antyczna indiañska;35
+Kuskus;65
+Kwinoa (komosa ry¿owa);35
+Laktoza;40
+Lazania (makaron z pszenicy durum);60
+Lody s³odzone cukrem;60
+Lody s³odzone fruktoz¹;35
+Maca (z bia³ej m¹ki);70
+Maca (z m¹ki pp);40
+Majonez (jaja, olej, musztarda);0
+Majonez z cukrem;60
+Makaron : typ Capellini;45
+Makaron chiñski (sojowy lub z fasoli mung);30
+Makaron z bia³ej m¹ki;70
+Makaron z m¹ki razowej - al dente;40
+Makaron z pszenicy durum;50
+Maliny;25
+Mandarynki;30
+Mango;50
+Maniok;55
+Marakuja;30
+Marchew gotowana;80
+Marchew surowa;30
+Marchwiowy sok;40
+Marmolada bez cukru;30
+Mas³o migda³owe;25
+Mas³o orzechowe (bez cukru);40
+M¹czka chleba œwiêtojañskiego;15
+M¹ka kasztanowa;65
+M¹ka kukurydziana;70
+M¹ka ry¿owa;95
+M¹ka sojowa;25
+M¹ka z ciecierzycy;35
+M¹ka ziemniaczana;90
+Melasa;70
+Melon;60
+Migda³owe mleko;30
+Migda³y;15
+Miód;60
+Mleczko owsiane (niegotowane);30
+Mleko kokosowe;40
+Mleko odt³uszczone w proszku;30
+Mleko ry¿owe;85
+Mleko sojowe;30
+Mleko t³uste;60
+Morele suszone;40
+Morele œwie¿e;30
+Morele z puszki;60
+Muesli (nies³odzone);50
+Muesli (z cukrem, miodem itp.);65
+Musztarda (z cukrem);55
+Musztarda Dijon;35
+Napoje (s³odzone);70
+Nasiona ( siemie lniane, sezam, mak );35
+Nektarynki;35
+Ocet;5
+Ogórek;15
+Oliwki;15
+Orzechy w³oskie, laskowe, nerkowce, pistacje;15
+Orzeszki ziemne (fistaszki);15
+Otrêby (owsiane i pszenne);40
+Owies;40
+Owoce lichee;50
+Owoce morza;0
+Owsianka;60
+Pamelo;30
+Papaja;55
+Papryczki Chili;15
+Papryka (czerwona, zielona, ¿ó³ta);15
+Pasternak;85
+Persymona, kaki;50
+Pestki z dyni;25
+Pesto;15
+Pêdy bambusa;20
+Pigwa;35
+Pigwa konserwowa (bez cukru);40
+Pigwa konserwowa (z cukrem);65
+Piniola;15
+Piwo;110
+Pizza;60
+P³atki kukurydziane;85
+P³atki owsiane (niegotowane);40
+P³atki œniadaniowe pe³ne;45
+Polenta;70
+Pomarañcze;35
+Pomidory;30
+Pomidory suszone;35
+Por;15
+Pra¿ona kukurydza;85
+Proso;70
+Przecier pomidorowy;35
+Przyprawy (oregano, bazylia, wanilia itp.);5
+Pumpernikiel (bez cukru, s³odu i miodu);40
+Puree;80
+Rabarbar;15
+Ravioli;70
+Risotto;70
+Rodzynki;65
+Rogalik;70
+Ryby;0
+Ry¿ aromatyzowany (jaœminowy);60
+Ry¿ basmati;50
+Ry¿ basmati br¹zowy;45
+Ry¿ br¹zowy;50
+Ry¿ d³ugoziarnisty;60
+Ry¿ dmuchany;85
+Ry¿ paraboliczny;85
+Rzepa, brukiew (gotowane);85
+Rzepa, brukiew (surowe);30
+Rzodkiew;15
+Sa³ata;15
+Seler gotowany (korzeñ);85
+Seler naciowy;15
+Seler surowy (korzeñ);35
+Sery t³uste (¿ó³ty, pleœniowy itp.);0
+Skorupiaki;5
+Skrobia modyfikowana;100
+S³onecznik;35
+Soczewica ¿ó³ta;30
+Soja;15
+Sok ananasowy (œwierzy , nies³odzony );50
+Sok ananasowy (œwie¿y, nies³odzony);50
+Sok cytrynowy (nies³odzony);20
+Sok grejpfrutowy (nies³odzony);45
+Sok jab³kowy (nies³odzony);50
+Sok pomarañczowy (œwie¿y, nies³odzony);45
+Sok pomidorowy;35
+Sok winogronowy (nies³odzony);55
+Sok z mango (nies³odzony);55
+Sok ¿urawinowy ( nies³odzony);50
+Sorbet jab³kowy;35
+Sos sojowy (bez cukru);0
+Sos z tamaryndy (bez cukru);20
+Spaghetti (ugotowane na miêkko);55
+Spaghetti al. dente (gotowane 5min);40
+Sucharki;70
+Surimi ( paluszki krabowe);50
+Sushi;55
+Syrop klonowy;65
+Szczaw;15
+Szparagi;15
+Szpinak;15
+Œliwki;35
+Œliwki suszone;40
+Œmietana kwaœna;0
+Œmietana sojowa;20
+Tacos;70
+Tamarynda (s³odzona);65
+Tapioka;85
+T³uszcz roœlinny/zwierzêcy;0
+Tofu;15
+Tosty z chleba z m¹ki pe³nej;45
+Truskawki;25
+Twaróg odt³uszczony;30
+Wino wytrawne (czerwone, bia³e);0
+Winogrono (zielone i czerwone);45
+Wiœnie;25
+Wo³owina;0
+Zarodki (przenne);15
+Zielona soczewica;25
+Zielony groszek z puszki (bez cukru);45
+Ziemniaki gotowane;70
+Ziemniaki pieczone;95
+Ziemniaki w mundurkach;65
+Ziemniaki zasma¿ane;95
+¯urawina;45

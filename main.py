@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+#coding=utf-8
 import time
 import undetected_chromedriver as uc
 from selenium.webdriver import Keys
@@ -43,17 +45,18 @@ def searchBing(driver, text):
 chromedriver = r"chromedriver.exe"
 #brave = 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'
 option = uc.ChromeOptions()
-#option.add_argument("--headless")
+option.add_argument("--headless")
 #option.binary_location = brave
 driver = uc.Chrome(driver_executable_path=chromedriver, options=option)
 driver.get("https://bmi-online.pl/indeks-glikemiczny")
+file = open("ig.txt","w")
 i = 1
 while True:
     try:
         el = driver.find_element(By.XPATH, f"//*[@class='content__table']/tbody/tr[{i}]/td[1]")
-        print(el.text + ": ", end="")
+        print(el.text + ";", end="", file = file)
         el = driver.find_element(By.XPATH, f"//*[@class='content__table']/tbody/tr[{i}]/td[2]")
-        print(el.text)
+        print(el.text, file = file)
         i+=1
     except:
         break
@@ -61,13 +64,14 @@ i = 1
 while True:
     try:
         el = driver.find_element(By.XPATH, f"/html/body/section/div/div[2]/div/div[2]/div[3]/div[3]/table/tbody/tr[{i}]/td[1]")
-        print(el.text + ": ", end="")
+        print(el.text + ";", end="", file = file)
         el = driver.find_element(By.XPATH, f"/html/body/section/div/div[2]/div/div[2]/div[3]/div[3]/table/tbody/tr[{i}]/td[2]")
-        print(el.text)
+        print(el.text, file = file)
         i+=1
     except:
         break
-
+file.close()
+print("--- END ----")
 input()
 
 #for prod in products:
