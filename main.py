@@ -5,7 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
 products = ["jabłko", "ziemniak", "gruszka", "śliwka", "kapusta", "marchewka", "papryka"]
-def search(driver, text):
+def searchBing(driver, text):
+    driver.get('https://www.bing.com/')
     try:
         el = driver.find_element(By.XPATH, "//button[@id='bnp_btn_accept']")
         el.click()
@@ -45,12 +46,32 @@ option = uc.ChromeOptions()
 #option.add_argument("--headless")
 #option.binary_location = brave
 driver = uc.Chrome(driver_executable_path=chromedriver, options=option)
-driver.get('https://www.bing.com/')
-
-for prod in products:
-    print(prod + ": " + search(driver,prod))
+driver.get("https://bmi-online.pl/indeks-glikemiczny")
+i = 1
+while True:
+    try:
+        el = driver.find_element(By.XPATH, f"//*[@class='content__table']/tbody/tr[{i}]/td[1]")
+        print(el.text + ": ", end="")
+        el = driver.find_element(By.XPATH, f"//*[@class='content__table']/tbody/tr[{i}]/td[2]")
+        print(el.text)
+        i+=1
+    except:
+        break
+i = 1
+while True:
+    try:
+        el = driver.find_element(By.XPATH, f"/html/body/section/div/div[2]/div/div[2]/div[3]/div[3]/table/tbody/tr[{i}]/td[1]")
+        print(el.text + ": ", end="")
+        el = driver.find_element(By.XPATH, f"/html/body/section/div/div[2]/div/div[2]/div[3]/div[3]/table/tbody/tr[{i}]/td[2]")
+        print(el.text)
+        i+=1
+    except:
+        break
 
 input()
+
+#for prod in products:
+#    print(prod + ": " + searchBing(driver,prod))
 
 
 # driver.get("https://google.pl")
