@@ -1,10 +1,10 @@
 import time
-
 import undetected_chromedriver as uc
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 
+products = ["jabłko", "ziemniak", "gruszka", "śliwka"]
 def search(driver, text):
     el = driver.find_element(By.XPATH, "//input[@type='search']")
     # create action chain object
@@ -22,20 +22,21 @@ def search(driver, text):
     # perform the operation
     action.perform()
     time.sleep(2)
-    el = driver.find_element(By.XPATH, "//div[@class='b_focusTextMedium']")
-    return el.text
-
+    try:
+        el = driver.find_element(By.XPATH, "//div[@class='b_focusTextMedium']")
+        return el.text
+    except:
+        return "no data"
 chromedriver = r"chromedriver.exe"
 brave = 'C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'
 option = uc.ChromeOptions()
 option.add_argument("--headless")
 option.binary_location = brave
 driver = uc.Chrome(driver_executable_path=chromedriver, options=option)
-
 driver.get('https://www.bing.com/')
-print(search(driver,"jabłko"))
-print(search(driver,"ziemniak"))
 
+for prod in products:
+    print(prod + ": " + search(driver,prod))
 
 input()
 
